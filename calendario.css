@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Madimi One", sans-serif;
+    margin: auto;
+    font-style: normal;
+    background-color: rgb(46, 185, 185);
+}
+
+h1{
+    font-size: 5vmax;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 
+          200px 200px 200px 200px
+}
+
+.meses{
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    box-shadow: 0px 0px 0px 2px black;
+}
+
+.mes-jan{
+    background-color: rgb(47, 0, 255);
+}
+.mes-fev{
+    background-color: rgba(64, 173, 21, 0.527);
+}
+.mes-mar{
+    background-color: rgb(117, 115, 91);
+}
+.mes-abr{
+    background-color: rgb(4, 0, 255);
+}
+.mes-Mai{
+    background-color: rgb(255, 72, 0);
+}
+.mes-jun{
+    background-color: rgb(255, 0, 140);
+}
+.mes-jul{
+    background-color: rgb(94, 255, 0);
+}
+.mes-ago{
+    background-color: rgb(200, 255, 0);
+}
+.mes-set{
+    background-color: rgb(255, 0, 242);
+}
+.mes-out{
+    background-color: rgb(255, 0, 200);
+}
+.mes-nov{
+    background-color: rgb(255, 38, 0);
+}
+.mes-dez{
+    background-color: rgb(200, 255, 0);
+}
+
+
